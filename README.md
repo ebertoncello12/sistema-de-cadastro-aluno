@@ -9,9 +9,9 @@ Projeto em desenvolvimento para facilitar a busca de alunos . O projeto "Cadastr
 
 Ele permite que os administradores adicionem, editem e excluam informações dos alunos, como nome, endereço, telefone, email, curso, matrícula, entre outros. Além disso, o sistema oferece recursos para a visualização e busca de alunos cadastrados, facilitando o acesso às informações necessárias pelos usuários autorizados. O objetivo principal do projeto é garantir uma gestão eficiente e organizada dos dados dos alunos, tornando o processo mais ágil e confiável.
 
-Descrição do projeto Sistema De "Cadastro Aluno", onde se tem uma pagina home com os botoes login, cadastro conectado via Bluetooth ao aplicativo que o profissional da saúde tem acesso.
+Descrição do projeto Sistema De "Cadastro Aluno", onde se tem uma pagina home com os botoes login, cadastro conectado via banco de dados  ao sistema que o usuario tem acesso.
 
-Funcionalidades
+Funcionalidades:
 
 ✔️ Funcionalidade 1: Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
 
@@ -27,12 +27,11 @@ Acesso ao projeto
 Você pode acessar o código fonte do projeto ou baixá-lo.
 !https://github.com/ebertoncello12/sistema-de-cadastro-aluno.git
 
-Aplicação
+Aplicação ->
 Visual Studio Code
 Open with Live Server
 
-
-Ferramentas utilizadas
+Ferramentas utilizadas ->
 Html,Css,Php,Js
 xampp mysql,phpmyadmin
 
