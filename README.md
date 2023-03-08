@@ -22,6 +22,9 @@ Funcionalidades
 
 ![image](https://user-images.githubusercontent.com/126869225/223698832-e2821da0-b222-4e25-90dd-84e5d9a517d6.png)
 
+Acesso ao projeto
+Você pode acessar o código fonte do projeto ou baixá-lo.
+https://github.com/ebertoncello12/sistema-de-cadastro-aluno.git
 
 Aplicação
 Visual Studio Code
@@ -32,9 +35,6 @@ Ferramentas utilizadas
 Html,Css,Php,Js
 
 xampp mysql,phpmyadmin
-
-Acesso ao projeto
-Você pode acessar o código fonte do projeto ou baixá-lo.
 
 Abrir e rodar o projeto
 Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, na tela de launcher clique em:
