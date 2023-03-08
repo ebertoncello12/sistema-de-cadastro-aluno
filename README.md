@@ -1,13 +1,57 @@
-O código em PHP da config.php cria uma conexão com um banco de dados MySQL usando a extensão MySQLi. Ele define quatro variáveis que armazenam informações para se conectar ao banco de dados, como endereço do servidor, nome de usuário, senha e nome do banco de dados. Em seguida, uma nova instância da classe mysqli é criada com as informações de conexão, estabelecendo uma conexão com o banco de dados. Comentários opcionais são fornecidos para depurar problemas de conexão. Se a conexão for bem-sucedida, a variável $conexao conterá um objeto mysqli para executar consultas SQL. Se ocorrer um erro, o objeto mysqli retornará NULL e informações detalhadas do erro podem ser acessadas usando as propriedades connect_errno e connect_error.
+![DESENVOLVIMENTO](https://user-images.githubusercontent.com/126869225/223694983-42fa2a1b-9118-4c2c-b56e-b839e42ea68f.svg)
 
-O formulário.php é um formulário de registro de usuário que coleta informações como nome, e-mail, senha, telefone, sexo, data de nascimento, cidade, estado e endereço. As informações coletadas são enviadas para um banco de dados MySQL usando o objeto MySQLi. A ação do formulário é definida para a própria página PHP. Quando o formulário é submetido, uma consulta INSERT é executada para adicionar as informações do usuário ao banco de dados. Após a inserção ser concluída com êxito, a página é redirecionada para a página de login. O código HTML contém um formulário com vários campos, estilizados com CSS. O botão de envio é estilizado com um efeito de brilho e transição.
+Tópicos
+Descrição do projeto
 
-O loginTest.php é responsável pela funcionalidade de login do usuário. Ele inicia uma sessão usando a função session_start() e verifica se o formulário foi enviado usando a função isset(). Se o formulário foi enviado e os campos de e-mail e senha não estiverem vazios, o script acessa um banco de dados usando include_once('config.php') que contém as informações de conexão com o banco de dados. Em seguida, ele seleciona todas as linhas da tabela "usuários" onde o e-mail e a senha correspondem aos valores de entrada usando uma consulta SQL. O resultado desta consulta é armazenado em $resultado. Se $result tiver menos de uma linha, significa que o usuário não foi encontrado no banco de dados, então o script desativa as variáveis de sessão e redireciona para a página de login usando header('Location: login.php'). Se $result tiver uma ou mais linhas, significa que o usuário foi encontrado no banco de dados, então o script define as variáveis de sessão e redireciona para a página principal do sistema usando header('Location: sistema.php'). Se o formulário não foi enviado ou os campos de e-mail e senha estão vazios, o script simplesmente redireciona para a página de login usando header('Location: login.php').
+Funcionalidades
 
-Sistema.php é uma função responsável por controlar o acesso a uma página de um sistema de login. A função verifica se o usuário está autenticado, caso contrário, redireciona para a página de login. Se o usuário estiver autenticado, a função verifica se há um parâmetro de busca na URL e faz uma consulta no banco de dados para buscar usuários que correspondam aos critérios de busca. Em seguida, a função exibe as informações na página. O arquivo de configuração é incluído para estabelecer a conexão com o banco de dados.
+Aplicação
 
-O arquivo deletar.php realiza uma operação de exclusão em um banco de dados MySQL. Primeiro, verifica se a variável $_GET['id'] não está vazia. Em seguida, inclui um arquivo de configuração (config.php) que contém as informações de conexão com o banco de dados. O código atribui o valor de $_GET['id'] à variável $id e cria uma string SQL para selecionar todos os registros da tabela "usuarios" onde o campo "id" é igual ao valor de $id. Em seguida, o código executa a consulta SQL e verifica se ela retornou algum registro. Se a consulta retornou pelo menos um registro, o código cria uma nova string SQL para excluir o registro com o ID especificado. Essa consulta SQL é então executada. Finalmente, o código redireciona o usuário para a página "sistema.php" usando a função header().
+Ferramentas utilizadas
 
-O arquivo edit.php se conecta a um banco de dados usando as informações de conexão armazenadas no arquivo 'config.php'. Ele verifica se há um parâmetro 'id' no array $_GET, que deve ser passado na URL. Se existir, ele é armazenado na variável $id. Em seguida, uma consulta SQL é criada para selecionar os dados do usuário com o id correspondente. Se a consulta retornar algum resultado, o código percorre os resultados usando um loop while e armazena as informações do usuário em variáveis ​​separadas. Essas informações podem ser usadas para exibir ou atualizar os dados do usuário. Se a consulta não retornar resultados ou se não houver um parâmetro 'id' na URL, o código redireciona o usuário para a página 'sistema.php'.
+Acesso ao projeto
 
-O arquivo saveEdit.php trata de uma atualização de dados de um usuário no banco de dados. Ele inclui o arquivo config.php que contém as configurações de conexão com o banco de dados. A estrutura condicional if(isset($_POST['update'])) verifica se o formulário de atualização de dados foi enviado pelo usuário. As variáveis são inicializadas com os valores enviados pelo formulário de atualização de dados. A variável $sqlInsert contém a instrução SQL para atualizar os dados do usuário na tabela "usuarios". A função query() do objeto $conexao é usada para executar a instrução SQL e a função print_r() é usada para imprimir o resultado da operação de atualização no banco de dados. A linha header('Location: sistema.php'); redireciona o usuário para a página "sistema.php".
+Abrir e rodar o projeto
+
+Desenvolvedores
+
+Descrição do projeto
+Projeto em desenvolvimento para disciplina Instrumentação Biomédica II do curso de Engenharia Biomédica. O GlicoCare é um sistema de telemonitoramento domiciliar para a atenção especializada de pessoas acometidas por diabetes mellitus.
+
+O sistema permitirá o monitoramento diário, contínuo e remoto do nível de glicose no sangue (glicemia), possibilitando que familiares, cuidadores, profissionais da saúde ou o próprio paciente acompanhem o estado clínico do mesmo.
+
+Descrição do projeto Sistema De Cadastro Aluno, onde se tem uma pagina home com os botoes login, cadastro conectado via Bluetooth ao aplicativo que o profissional da saúde tem acesso.
+
+Funcionalidades
+✔️ Funcionalidade 1: Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
+
+✔️ Funcionalidade 2: Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
+
+✔️ Funcionalidade 3: Plotar gráfico com histórico dos níveis glicêmicos do paciente.
+
+✔️ Funcionalidade 4: Chat com entre o paciente e profissional da saúde.
+
+Aplicação
+Visual Studio Code
+Open with Live Server
+
+
+Ferramentas utilizadas
+Html,Css,Php
+
+xampp mysql,phpmyadmin
+
+Acesso ao projeto
+Você pode acessar o código fonte do projeto ou baixá-lo.
+
+Abrir e rodar o projeto
+Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, na tela de launcher clique em:
+
+Files -> Open Folder  (ou alguma opção similar);
+Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
+Por fim clique em OK.
+O Visual Studio Code deve executar e em alguns segundos  o projeto, aguarde até finalizar. Ao finalizar , você pode executar o App ou com o servidor xampp, ou usando a extensao do Visual Studio Code ( Open With Live Server) 🏆
+
+Desenvolvedores
+
+Enzzo Ferrari Bertoncello
