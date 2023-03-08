@@ -4,6 +4,7 @@ Ferramentas utilizadas
 HTML,CSS,PHP,JS
 
 Descrição do projeto
+
 Projeto em desenvolvimento para facilitar a busca de alunos . O projeto "Cadastro de Alunos" é um sistema desenvolvido para gerenciar o cadastro e as informações dos alunos de uma instituição de ensino. 
 
 Ele permite que os administradores adicionem, editem e excluam informações dos alunos, como nome, endereço, telefone, email, curso, matrícula, entre outros. Além disso, o sistema oferece recursos para a visualização e busca de alunos cadastrados, facilitando o acesso às informações necessárias pelos usuários autorizados. O objetivo principal do projeto é garantir uma gestão eficiente e organizada dos dados dos alunos, tornando o processo mais ágil e confiável.
@@ -33,7 +34,6 @@ Open with Live Server
 
 Ferramentas utilizadas
 Html,Css,Php,Js
-
 xampp mysql,phpmyadmin
 
 Abrir e rodar o projeto
