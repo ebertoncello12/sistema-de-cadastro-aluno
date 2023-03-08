@@ -20,11 +20,11 @@ Funcionalidades
 
 ✔️ Funcionalidade 4: a seção é implementada por meio de uma página web, que exibe uma tabela com as informações dos alunos, como nome, matrícula, curso, entre outros. Além disso, a página pode conter recursos de busca e filtragem, permitindo que o usuário encontre facilmente as informações que precisa.
 
-![image](https://user-images.githubusercontent.com/126869225/223698832-e2821da0-b222-4e25-90dd-84e5d9a517d6.png)
+![image](https://user-images.githubusercontent.com/126869225/223699905-e53957f1-564b-419f-8303-cf279bb2f2dd.png)
 
 Acesso ao projeto
 Você pode acessar o código fonte do projeto ou baixá-lo.
-https://github.com/ebertoncello12/sistema-de-cadastro-aluno.git
+!https://github.com/ebertoncello12/sistema-de-cadastro-aluno.git
 
 Aplicação
 Visual Studio Code
