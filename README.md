@@ -1,35 +1,27 @@
 ![DESENVOLVIMENTO](https://user-images.githubusercontent.com/126869225/223694983-42fa2a1b-9118-4c2c-b56e-b839e42ea68f.svg)
 
-Tópicos
-Descrição do projeto
-
-Funcionalidades
-
-Aplicação
-
 Ferramentas utilizadas
-
-Acesso ao projeto
-
-Abrir e rodar o projeto
-
-Desenvolvedores
+HTML,CSS,PHP,JS
 
 Descrição do projeto
-Projeto em desenvolvimento para disciplina Instrumentação Biomédica II do curso de Engenharia Biomédica. O GlicoCare é um sistema de telemonitoramento domiciliar para a atenção especializada de pessoas acometidas por diabetes mellitus.
+Projeto em desenvolvimento para facilitar a busca de alunos . O projeto "Cadastro de Alunos" é um sistema desenvolvido para gerenciar o cadastro e as informações dos alunos de uma instituição de ensino. 
 
-O sistema permitirá o monitoramento diário, contínuo e remoto do nível de glicose no sangue (glicemia), possibilitando que familiares, cuidadores, profissionais da saúde ou o próprio paciente acompanhem o estado clínico do mesmo.
+Ele permite que os administradores adicionem, editem e excluam informações dos alunos, como nome, endereço, telefone, email, curso, matrícula, entre outros. Além disso, o sistema oferece recursos para a visualização e busca de alunos cadastrados, facilitando o acesso às informações necessárias pelos usuários autorizados. O objetivo principal do projeto é garantir uma gestão eficiente e organizada dos dados dos alunos, tornando o processo mais ágil e confiável.
 
-Descrição do projeto Sistema De Cadastro Aluno, onde se tem uma pagina home com os botoes login, cadastro conectado via Bluetooth ao aplicativo que o profissional da saúde tem acesso.
+Descrição do projeto Sistema De "Cadastro Aluno", onde se tem uma pagina home com os botoes login, cadastro conectado via Bluetooth ao aplicativo que o profissional da saúde tem acesso.
 
 Funcionalidades
+
 ✔️ Funcionalidade 1: Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
 
-✔️ Funcionalidade 2: Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
+✔️ Funcionalidade 2: Armazenar dados do usuário, como email, senha, Registro Aluno, Cidade, Sexo e endereço no banco de dados MySql,PhpMyAdmin .
 
-✔️ Funcionalidade 3: Plotar gráfico com histórico dos níveis glicêmicos do paciente.
+✔️ Funcionalidade 3: Listar todos os dados do banco de dados para um seçao "Pesquisar Registros", e o usuário pode fazer uma consulta é uma das partes mais importantes do projeto "Cadastro de Alunos".
 
-✔️ Funcionalidade 4: Chat com entre o paciente e profissional da saúde.
+✔️ Funcionalidade 4: a seção é implementada por meio de uma página web, que exibe uma tabela com as informações dos alunos, como nome, matrícula, curso, entre outros. Além disso, a página pode conter recursos de busca e filtragem, permitindo que o usuário encontre facilmente as informações que precisa.
+
+![image](https://user-images.githubusercontent.com/126869225/223698832-e2821da0-b222-4e25-90dd-84e5d9a517d6.png)
+
 
 Aplicação
 Visual Studio Code
@@ -37,7 +29,7 @@ Open with Live Server
 
 
 Ferramentas utilizadas
-Html,Css,Php
+Html,Css,Php,Js
 
 xampp mysql,phpmyadmin
 
