@@ -22,7 +22,7 @@ Funcionalidades:
 
 ✔️ Funcionalidade 4: a seção é implementada por meio de uma página web, que exibe uma tabela com as informações dos alunos, como nome, matrícula, curso, entre outros. Além disso, a página pode conter recursos de busca e filtragem, permitindo que o usuário encontre facilmente as informações que precisa.
 
-![AAAAAAAAAAAAAAAAAAAAAAA](https://user-images.githubusercontent.com/126869225/223703626-46f4b51c-bf47-4d53-8533-682de0be1f71.png)
+![Base De Alunos - Perfil 1 — Microsoft_ Edge 2023-03-08 08-24-13](https://user-images.githubusercontent.com/126869225/223703807-5e048021-1a50-41aa-b07e-561879a777bd.gif)
 
 Acesso ao projeto
 Você pode acessar o código fonte do projeto ou baixá-lo.
